@@ -147,7 +147,7 @@ More information on Task Metadata endpoint can be found here: https://docs.aws.a
 
 2. Add the new metadata-proxy side car container to the Mythical Mysfits **Like** service task definition.
 
-    The metadata-proxy side car container image is avaialble from the following Amazon Elastic Container Registry repository:
+    The metadata-proxy side car container image is avaialble from the following Registry repository:
 
     <pre>spugachev/metadata-proxy:latest</pre>
 
