@@ -951,9 +951,12 @@ You can also check your CloudWatch Dashboard to see that the change in task numb
 
 Region | Launch Template
 ------------ | -------------  
+**EU (Ireland)** (eu-west-1) | [![Launch Mythical Mysfits Stack into Ireland with CloudFormation](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=load-generator&templateURL=https://s3.amazonaws.com/mythical-mysfits-website/fargate-ops/load-gen-lab4.yml)
+
+Region | Launch Template
+------------ | -------------  
 **Oregon** (us-west-2) | [![Launch Mythical Mysfits Stack into Oregon with CloudFormation](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=load-generator&templateURL=https://s3.amazonaws.com/mythical-mysfits-website/fargate-ops/load-gen-lab4.yml)
 **Ohio** (us-east-2) | [![Launch Mythical Mysfits Stack into Ohio with CloudFormation](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=load-generator&templateURL=https://s3.amazonaws.com/mythical-mysfits-website/fargate-ops/load-gen-lab4.yml)
-**EU (Ireland)** (eu-west-1) | [![Launch Mythical Mysfits Stack into Ireland with CloudFormation](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=load-generator&templateURL=https://s3.amazonaws.com/mythical-mysfits-website/fargate-ops/load-gen-lab4.yml)
 **Asia Pacific (Singapore)** (ap-southeast-1) | [![Launch Mythical Mysfits Stack into Singapore with CloudFormation](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=load-generator&templateURL=https://s3.amazonaws.com/mythical-mysfits-website/fargate-ops/load-gen-lab4.yml)
 
 For the paramter **ALBDNSName** enter the **LoadBalancerDNS** which you'll find on the outputs of the workshops main CloudFormation stack.
