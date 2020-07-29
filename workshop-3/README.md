@@ -149,7 +149,7 @@ More information on Task Metadata endpoint can be found here: https://docs.aws.a
 
     The metadata-proxy side car container image is avaialble from the following Amazon Elastic Container Registry repository:
 
-    <pre>205094881157.dkr.ecr.us-west-2.amazonaws.com/metadata-proxy:latest</pre>
+    <pre>spugachev/metadata-proxy:latest</pre>
 
     The metadata-proxy side car will proxy requests to the tasks metadata endpoint over port 8001. When you add the new container to the task definition, be sure to configure the container port to **8001** and the protocol to **TCP**.
 
@@ -176,7 +176,7 @@ More information on Task Metadata endpoint can be found here: https://docs.aws.a
 
         2. In **Image**, paste the repository URI and add the latest tag.
             
-            <pre>205094881157.dkr.ecr.us-west-2.amazonaws.com/metadata-proxy:latest</pre>
+            <pre>spugachev/metadata-proxy:latest</pre>
 
         3. In **Memory Limits (MiB)**, set **Hard Limit** to **128**.
 
